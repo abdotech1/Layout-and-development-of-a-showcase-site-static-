@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="../CSS/paymentstyle.css" />
+  <link rel="shortcut icon" href="../pecturs/LOGO1.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/73b867d4ea.js" crossorigin="anonymous"></script>
+  <title>ANTIBACTERIAL</title>
+</head>
+
+<body>
+
+  <nav id="bar-list">
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <ul class="nav-links">
+      <img id="logo1" src="../pecturs/LOGO1.png" alt="">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Galerie.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <a id="logo2" href="payment.html">
+        <img id="logo2-logo" src="../pecturs/shopping-cart.png" alt="logo-payment">
+      </a>
+    </ul>
+  </nav>
+
+
+  <div class="container">
+    <h1 class="title-p"> order details</h1>
+    <div class="receipt">
+      <div class="col">
+        <p>Quantity :</p>
+        <select name="" id="">
+
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="1">5</option>
+          <option value="2">6</option>
+          <option value="3">7</option>
+          <option value="2">8</option>
+          <option value="3">9</option>
+          <option value="2">10</option>
+
+        </select>
+        <br>
+        <p>Total:</p>
+        <h2 class="seller">120 DH</h2>
+      </div>
+      <div class="col">
+        <h3 class="bought-items">product :</h3>
+        <img id="p-buy" src="../pecturs/Product4.png" alt="">
+      </div>
+      <p class="comprobe">This information will be sended to your email</p>
+    </div>
+
+  </div>
+
+
+  <!-- paypal -->
+  <h1 class="title-p"> payment method </h1>
+  <div id="c-payment">
+
+    <div class="box">
+      <span class="paypal-logo">
+        <i>Pay</i><i>Pal</i>
+      </span>
+
+      <br />
+
+      <a href="https://www.paypal.com/ma/signin" target="_blank" class="paypal-button">
+        <span class="paypal-button-title">
+          Buy now with
+        </span>
+        <span class="paypal-logo">
+          <i>Pay</i><i>Pal</i>
+        </span>
+      </a>
+    </div>
+    <!-- payment card-->
+
+    <div class="card">
+      <button class="proceed"><svg class="sendicon" width="24" height="24" viewBox="0 0 24 24">
+          <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+        </svg></button>
+      <img src="https://seeklogo.com/images/V/VISA-logo-62D5B26FE1-seeklogo.com.png" class="logo-card">
+      <label>Card number:</label>
+      <input id="user" type="text" class="input cardnumber" placeholder="1234-5678-9101-1121">
+      <label>Name:</label>
+      <input class="input name" placeholder="full name">
+      <label class="toleft">CCV:</label>
+      <input class="input toleft ccv" placeholder="321">
+    </div>
+  </div> <!--   end  c-payment -->
+
+  <footer>
+    <section>
+      <h1>About</h1>
+      <ul>
+        <li><a href="">About Us</a></li>
+      </ul>
+    </section>
+    <section>
+      <h1>Help</h1>
+      <ul>
+        <li><a href="">Delivery</a></li>
+        <li><a href="">Returns</a></li>
+        <li><a href="">Help Center</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </section>
+    <section>
+      <h1>Social</h1>
+      <ul>
+        <li><i class="fab fa-instagram"></i> <a class="in" href="">Instagram</a> </li>
+        <li><i class="fab fa-facebook-f"></i><a class="facebook" href=""> Facebook</a></li>
+        <li><i class="fab fa-twitter"></i><a class="tw" href="">Twitter</a> </li>
+        <li><i class="fab fa-pinterest"></i><a class="pin" href=""> Pinterest</a></li>
+
+      </ul>
+    </section>
+
+  </footer>
+  <div class="cop">
+    <p> <a href=""> © 2021 <span style="color: #2cd7ec;">ANTI</span>BACTERIAL. ALL right reserved. Terms of Use and
+        Privacy Policy</a></p>
+  </div>
+
+  <script src="../JS/app.js">   </script>
+</body>
+
+</html>
